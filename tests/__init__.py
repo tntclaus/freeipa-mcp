@@ -1,0 +1,1 @@
+"""FreeIPA MCP Server tests."""
