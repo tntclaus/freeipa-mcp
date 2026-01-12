@@ -17,10 +17,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Create FastMCP server instance
-mcp = FastMCP(
-    "FreeIPA MCP Server",
-    description="Identity management server for FreeIPA - manage users, groups, hosts, DNS, HBAC, and sudo rules",
-)
+mcp = FastMCP("FreeIPA MCP Server")
 
 
 # =============================================================================
