@@ -78,7 +78,6 @@ class FreeIPAClient:
             self._client = ClientMeta(
                 host=settings.server,
                 verify_ssl=settings.verify_ssl,
-                version=settings.api_version,
             )
 
             self._client.login(
